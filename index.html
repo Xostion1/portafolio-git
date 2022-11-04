@@ -19,15 +19,15 @@ html
         </div>
             <nav id="nav"> <!--nav(representa una seccion de una pagina cuyo proposito es proporcionar enlaces de navegacion)-->
                 <ul> <!--ul(elemento para listas)-->
-                 <li><a href="#inicio">INICIO</a></li>  <!--li(Item list)-->
-                 <li><a href="#sobremi">SOBRE MI</a></li>
-                 <li><a href="#skills">SKILLS</a></li>
-                 <li><a href="#curriculum">CURRICULUM</a></li>
-                 <li><a href="#portafolio">PORTAFOLIO</a></li>
-                 <li><a href="#contacto">CONTACTO</a></li>
+                 <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>  <!--li(Item list)-->
+                 <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                 <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                 <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                 <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                 <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
             <i class="fa-solid fa-bars"></i> <!--Icono de barra-->
         </div>
     </header>
@@ -114,8 +114,8 @@ html
         </div>
     </section>
     <!--Skills-->
-    <section class="skills" id="skills">
-        <div class="contenido seccion">
+      <section id="skills" class="skills">
+       <div class="contenido-seccion">
             <h2>SKILLS</h2>
             <div class="fila">
                 <!--Technical Skill-->
@@ -130,7 +130,7 @@ html
                         </div>
                     </div>
                     <div class="skills">
-                        <span>HTML & CSS</span>
+                        <span>HTMLCSS</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>50%</span>
@@ -206,7 +206,6 @@ html
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -397,6 +396,8 @@ html
             <a href=""><i class="fa-brands fa-github"></i></a>
         </div>
     </footer>
+
+    <script src="app.js"></script>
 
 
 </body>
