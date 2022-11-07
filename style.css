@@ -14,7 +14,7 @@ html{
     /* MENU */
 
 .contenedor-header{
-    background: #01436a;
+    background: #34495E ;
     position: fixed;
     width: 100%;
     top: 0%;
@@ -53,11 +53,11 @@ html{
 }
 
 .contenedor-header ul li a:hover{
-    color:aqua;
+    color:#DAF7A6 
 }
 
 .nav-responsive{
-    background-color: #01436a;
+    background-color: #34495E ;
     color: aliceblue;
     padding: 5px 10px;
     border-radius: 5px;
@@ -65,7 +65,7 @@ html{
 }
 
 .nav-responsive:hover{
-    color:aqua;
+    color:#DAF7A6 
 }
 
 /* INICIO */
@@ -82,7 +82,7 @@ html{
 
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #01436a;
+    background-color: #34495E ;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -128,13 +128,13 @@ html{
 }
 
 .inicio .contenido-banner .redes a:hover{
-    background-color: aqua;
+    background-color: #DAF7A6
 }
 
 /* Sobre mi */
 
 .sobremi{
-    background-color: #01436a;
+    background-color: #2980B9 ;
     color: #fff;
     padding: 50px 20px;
 }
@@ -158,7 +158,7 @@ html{
 }
 
 .sobremi .contenido-seccion p span{
-    color: aqua;
+    color: #34495E ;
     font-weight: bold;
 }
 
@@ -182,19 +182,20 @@ html{
 
 .sobremi .fila .col ul li strong{
     display:inline-block ;
-    color: aqua;
+    color: #34495E ;
     width: 130px;
 }
 
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
+    color: #34495E ;
 }
 
 .sobremi .fila .col .contenedor-intereses .intereses{
     width: 100px;
     height: 100px;
-    background-color:gray;
+    background-color:#7F8C8D;
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -205,7 +206,7 @@ html{
 }
 
 .sobremi .fila .col .contenedor-intereses .intereses:hover{
-    background-color: aqua;
+    background-color: #DAF7A6
 }
 
 .sobremi .fila .col .contenedor-intereses .intereses i{
@@ -233,7 +234,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: aqua;
+    background-color: #DAF7A6;
     z-index: -1;
     transition: 1s;
 }
